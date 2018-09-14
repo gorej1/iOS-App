@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showMessage(sender: UIButton) {
-        let alertController = UIAlertController(title: "Welcome to My First App", message: "Hello World", preferredStyle: UIAlertControllerStyle.alert)
+        let alertController = UIAlertController(title: "Benchmark Historic App", message: "Welcome to the Benchmark Historic App!", preferredStyle: UIAlertControllerStyle.alert)
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
