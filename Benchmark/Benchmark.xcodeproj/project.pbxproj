@@ -14,6 +14,7 @@
 		862989F92146B99300E7231B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862989F72146B99300E7231B /* LaunchScreen.storyboard */; };
 		86298A042146B99300E7231B /* BenchmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A032146B99300E7231B /* BenchmarkTests.swift */; };
 		86298A0F2146B99300E7231B /* BenchmarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A0E2146B99300E7231B /* BenchmarkUITests.swift */; };
+		8665ABAD214FFE7F004393D4 /* wright1903.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8665ABAC214FFE7F004393D4 /* wright1903.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		86298A0A2146B99300E7231B /* BenchmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86298A0E2146B99300E7231B /* BenchmarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkUITests.swift; sourceTree = "<group>"; };
 		86298A102146B99300E7231B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8665ABAC214FFE7F004393D4 /* wright1903.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wright1903.jpg; path = ../../../../../Downloads/wright1903.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				862989EE2146B99100E7231B /* AppDelegate.swift */,
 				862989F02146B99100E7231B /* ViewController.swift */,
 				862989F22146B99100E7231B /* Main.storyboard */,
+				8665ABAC214FFE7F004393D4 /* wright1903.jpg */,
 				862989F52146B99300E7231B /* Assets.xcassets */,
 				862989F72146B99300E7231B /* LaunchScreen.storyboard */,
 				862989FA2146B99300E7231B /* Info.plist */,
@@ -232,6 +235,7 @@
 				862989F92146B99300E7231B /* LaunchScreen.storyboard in Resources */,
 				862989F62146B99300E7231B /* Assets.xcassets in Resources */,
 				862989F42146B99100E7231B /* Main.storyboard in Resources */,
+				8665ABAD214FFE7F004393D4 /* wright1903.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
