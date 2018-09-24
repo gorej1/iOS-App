@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func followLink(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: [:], completionHandler: nil)
+        //}
+    }
+    
+    
     @IBAction func showMessage(sender: UIButton) {
         let alertController = UIAlertController(title: "Benchmark Historic App", message: "Welcome to the Benchmark Historic App!", preferredStyle: UIAlertControllerStyle.alert)
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
