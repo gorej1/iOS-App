@@ -67,7 +67,12 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
         videoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
         videoPreviewLayer.frame = view.layer.bounds
         videoPreviewLayer.videoGravity = .resizeAspectFill
-        view.layer.addSublayer(videoPreviewLayer)
+        view.layer.insertSublayer(videoPreviewLayer, at: 0)
+        //view.layer.addSublayer(videoPreviewLayer, at)
+        //view.subl
+        /*var backButton = UIButton()
+        view.addSubview(backButton)
+        view.bringSubview(toFront: backButton)*/
         
         captureSession.startRunning()
     }
@@ -107,7 +112,6 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     
 
     func found(code: String) {
-        print(code)
         let url: NSURL = NSURL(string: "https://flyinghistory.com/geturl.php")!
         let request:NSMutableURLRequest = NSMutableURLRequest(url:url as URL)
         let bodyData = "code=\(code)"
