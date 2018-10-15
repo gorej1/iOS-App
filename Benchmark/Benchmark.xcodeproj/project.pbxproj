@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8607023B21626E87002DFB99 /* QRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8607023A21626E87002DFB99 /* QRScanner.swift */; };
 		860C500B215BD3E9007249A6 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FF2215BD3E8007249A6 /* 16.png */; };
 		860C500C215BD3E9007249A6 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FF3215BD3E8007249A6 /* 180.png */; };
 		860C500D215BD3E9007249A6 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FF4215BD3E8007249A6 /* 58.png */; };
@@ -62,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8607023A21626E87002DFB99 /* QRScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanner.swift; sourceTree = "<group>"; };
 		860C4FF2215BD3E8007249A6 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
 		860C4FF3215BD3E8007249A6 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
 		860C4FF4215BD3E8007249A6 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				862989EE2146B99100E7231B /* AppDelegate.swift */,
 				862989F02146B99100E7231B /* ViewController.swift */,
 				862989F22146B99100E7231B /* Main.storyboard */,
+				8607023A21626E87002DFB99 /* QRScanner.swift */,
 				862989F52146B99300E7231B /* Assets.xcassets */,
 				860C5024215BD3FA007249A6 /* Images */,
 				862989F72146B99300E7231B /* LaunchScreen.storyboard */,
@@ -378,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8607023B21626E87002DFB99 /* QRScanner.swift in Sources */,
 				862989F12146B99100E7231B /* ViewController.swift in Sources */,
 				862989EF2146B99100E7231B /* AppDelegate.swift in Sources */,
 			);
@@ -553,6 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDY4JNRHT7;
 				INFOPLIST_FILE = Benchmark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -570,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDY4JNRHT7;
 				INFOPLIST_FILE = Benchmark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
