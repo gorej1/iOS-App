@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Screen Shot 2018-10-17 at 10.22.08 AM.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/elizabethlopresti/Documents/GitHub/iOS-App/Benchmark/Benchmark/Images/Screen Shot 2018-10-17 at 10.22.08 AM.png">
+   </FileRef>
+   <FileRef
+      location = "group:Screen Shot 2018-10-17 at 10.22.08 AM.png">
+   </FileRef>
+   <FileRef
       location = "self:Benchmark.xcodeproj">
    </FileRef>
 </Workspace>
