@@ -68,11 +68,6 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
         videoPreviewLayer.frame = view.layer.bounds
         videoPreviewLayer.videoGravity = .resizeAspectFill
         view.layer.insertSublayer(videoPreviewLayer, at: 0)
-        //view.layer.addSublayer(videoPreviewLayer, at)
-        //view.subl
-        /*var backButton = UIButton()
-        view.addSubview(backButton)
-        view.bringSubview(toFront: backButton)*/
         
         captureSession.startRunning()
     }
