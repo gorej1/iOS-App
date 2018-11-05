@@ -38,7 +38,6 @@
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="SCAN"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IkI-5v-8iO"/>
                                     <segue destination="AOH-ga-S6Y" kind="presentation" id="3Bc-OP-YAS"/>
                                 </connections>
                             </button>

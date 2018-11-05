@@ -16,7 +16,6 @@
 		860C5010215BD3E9007249A6 /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FF7215BD3E8007249A6 /* 60.png */; };
 		860C5011215BD3E9007249A6 /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FF8215BD3E8007249A6 /* 32.png */; };
 		860C5012215BD3E9007249A6 /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FF9215BD3E8007249A6 /* 72.png */; };
-		860C5013215BD3E9007249A6 /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FFA215BD3E8007249A6 /* 1024.png */; };
 		860C5014215BD3E9007249A6 /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FFB215BD3E8007249A6 /* 20.png */; };
 		860C5015215BD3E9007249A6 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FFC215BD3E8007249A6 /* 57.png */; };
 		860C5016215BD3E9007249A6 /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = 860C4FFD215BD3E8007249A6 /* 512.png */; };
@@ -36,6 +35,7 @@
 		860C5029215BD58C007249A6 /* Formation Two, Large.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 860C5026215BD58B007249A6 /* Formation Two, Large.jpeg */; };
 		860C502A215BD58C007249A6 /* Airshow Sky 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 860C5027215BD58B007249A6 /* Airshow Sky 2.jpg */; };
 		860C502B215BD58C007249A6 /* Airshow Sky 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 860C5028215BD58B007249A6 /* Airshow Sky 3.jpeg */; };
+		861C3A7D2189F25E00B6F04B /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 861C3A7C2189F25E00B6F04B /* 1024.png */; };
 		862989EF2146B99100E7231B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862989EE2146B99100E7231B /* AppDelegate.swift */; };
 		862989F12146B99100E7231B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862989F02146B99100E7231B /* ViewController.swift */; };
 		862989F42146B99100E7231B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862989F22146B99100E7231B /* Main.storyboard */; };
@@ -72,7 +72,6 @@
 		860C4FF7215BD3E8007249A6 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
 		860C4FF8215BD3E8007249A6 /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
 		860C4FF9215BD3E8007249A6 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
-		860C4FFA215BD3E8007249A6 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
 		860C4FFB215BD3E8007249A6 /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
 		860C4FFC215BD3E8007249A6 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 		860C4FFD215BD3E8007249A6 /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
@@ -93,6 +92,8 @@
 		860C5026215BD58B007249A6 /* Formation Two, Large.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Formation Two, Large.jpeg"; sourceTree = "<group>"; };
 		860C5027215BD58B007249A6 /* Airshow Sky 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Airshow Sky 2.jpg"; sourceTree = "<group>"; };
 		860C5028215BD58B007249A6 /* Airshow Sky 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Airshow Sky 3.jpeg"; sourceTree = "<group>"; };
+		861C3A7C2189F25E00B6F04B /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		861C3A7E2189F27E00B6F04B /* 1024_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1024_1.png; path = "/Users/elizabethlopresti/Documents/GitHub/iOS-App/Benchmark/Benchmark/1024_1.png"; sourceTree = "<absolute>"; };
 		862989EB2146B99100E7231B /* Benchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Benchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		862989EE2146B99100E7231B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		862989F02146B99100E7231B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +137,8 @@
 		860C5024215BD3FA007249A6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				861C3A7E2189F27E00B6F04B /* 1024_1.png */,
+				861C3A7C2189F25E00B6F04B /* 1024.png */,
 				860C5027215BD58B007249A6 /* Airshow Sky 2.jpg */,
 				860C5028215BD58B007249A6 /* Airshow Sky 3.jpeg */,
 				860C5026215BD58B007249A6 /* Formation Two, Large.jpeg */,
@@ -164,7 +167,6 @@
 				860C4FF3215BD3E8007249A6 /* 180.png */,
 				860C5007215BD3E9007249A6 /* 256.png */,
 				860C4FFD215BD3E8007249A6 /* 512.png */,
-				860C4FFA215BD3E8007249A6 /* 1024.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -328,6 +330,7 @@
 			files = (
 				860C5021215BD3E9007249A6 /* 114.png in Resources */,
 				860C500F215BD3E9007249A6 /* 29.png in Resources */,
+				861C3A7D2189F25E00B6F04B /* 1024.png in Resources */,
 				860C500B215BD3E9007249A6 /* 16.png in Resources */,
 				860C5029215BD58C007249A6 /* Formation Two, Large.jpeg in Resources */,
 				860C5016215BD3E9007249A6 /* 512.png in Resources */,
@@ -335,7 +338,6 @@
 				860C500D215BD3E9007249A6 /* 58.png in Resources */,
 				862989F92146B99300E7231B /* LaunchScreen.storyboard in Resources */,
 				860C501B215BD3E9007249A6 /* 40.png in Resources */,
-				860C5013215BD3E9007249A6 /* 1024.png in Resources */,
 				860C501C215BD3E9007249A6 /* 80.png in Resources */,
 				860C5015215BD3E9007249A6 /* 57.png in Resources */,
 				862989F62146B99300E7231B /* Assets.xcassets in Resources */,

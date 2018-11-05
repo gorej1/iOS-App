@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Benchmark
 //
-//  Created by Elizabeth LoPresti on 9/10/18.
+//  Created by Matthew Oross and John Brown on 9/10/18.
 //  Copyright © 2018 Benchmark Systems, LLC. All rights reserved.
 //
 
@@ -21,10 +21,10 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    /* This function is linked to the "Info" button on the landing page.
+    *  It opens a link using the default browser for the phone.
+    */
     @IBAction func followLink(_ sender: Any) {
         UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: [:], completionHandler: nil)
-    }
-    
-    @IBAction func showMessage(sender: UIButton) {
     }
 }
