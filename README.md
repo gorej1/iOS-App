@@ -8,3 +8,6 @@ https://www.hackingwithswift.com/example-code/media/how-to-scan-a-qr-code
 
 This is a link to the main page for the Apple Developer program that is needed to deploy the app
 https://developer.apple.com/programs/
+
+Link for publishing to the Apple App Store:
+https://clearbridgemobile.com/how-to-submit-an-app-to-the-app-store/
