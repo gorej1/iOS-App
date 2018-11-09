@@ -1,13 +1,4 @@
 # iOS-App
+This app was developed as part of an ECE 432L class at the University of Dayton.
 
-This link gives a step-by-step tutorial on building an iOS app in XCode
-https://www.appcoda.com/learnswift/build-your-first-app.html
-
-This link gives a tutorial on building a QR Code scanner using XCode 9 and Swift 4
-https://www.hackingwithswift.com/example-code/media/how-to-scan-a-qr-code
-
-This is a link to the main page for the Apple Developer program that is needed to deploy the app
-https://developer.apple.com/programs/
-
-Link for publishing to the Apple App Store:
-https://clearbridgemobile.com/how-to-submit-an-app-to-the-app-store/
+To start updating the code, open the project in this repository in in XCode 10+. The app can be run using a simulator in XCode, but the capabilities of the app that use the phone's camera are unavailable. To properly test any changes to the app, you can plug the phone in to the computer being used for development and use that as your simulator or you can setup Apple Testflight to easily distribute the app using a URL.
