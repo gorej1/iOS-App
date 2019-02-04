@@ -123,7 +123,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
         let url: NSURL = NSURL(string: "https://flyinghistory.com/geturl.php")!
         let request:NSMutableURLRequest = NSMutableURLRequest(url:url as URL)
         let bodyData = "code=\(code)"
-    
+
         // Set up a POST request to the PHP script to request the correct URL
         request.httpMethod = "POST"
         request.httpBody = bodyData.data(using: String.Encoding.utf8)
@@ -132,7 +132,8 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             
             // Print the error code to the terminal, if one occurs
             if error != nil {
-                print("error=\(error)")
+                let errString = error as! String
+                print("error=\(errString)")
                 return
             }
             // Store the raw data returned from the PHP script
