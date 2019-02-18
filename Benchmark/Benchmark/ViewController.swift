@@ -25,6 +25,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     *  It opens a link using the default browser for the phone.
     */
     @IBAction func followLink(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: [:], completionHandler: nil)
+        //UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: [:], completionHandler: nil)
+        // TODO: Open About page instead of home page
     }
 }
