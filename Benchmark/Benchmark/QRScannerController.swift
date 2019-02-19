@@ -12,9 +12,16 @@ import AVFoundation
 
 class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
     
+    //MARK: Variables
     var captureSession:AVCaptureSession!
     var videoPreviewLayer:AVCaptureVideoPreviewLayer!
     
+    //MARK: Navigation
+    @IBAction func Cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    //MARK: Actions
     override func viewDidLoad() {
         super.viewDidLoad()
 
