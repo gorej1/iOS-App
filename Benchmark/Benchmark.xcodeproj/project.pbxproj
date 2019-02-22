@@ -43,6 +43,7 @@
 		862989F92146B99300E7231B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862989F72146B99300E7231B /* LaunchScreen.storyboard */; };
 		86298A042146B99300E7231B /* BenchmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A032146B99300E7231B /* BenchmarkTests.swift */; };
 		86298A0F2146B99300E7231B /* BenchmarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A0E2146B99300E7231B /* BenchmarkUITests.swift */; };
+		86BD7A37221DAAB500614C1D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD7A36221DAAB500614C1D /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		86298A0A2146B99300E7231B /* BenchmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86298A0E2146B99300E7231B /* BenchmarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkUITests.swift; sourceTree = "<group>"; };
 		86298A102146B99300E7231B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BD7A36221DAAB500614C1D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,9 +196,10 @@
 		862989ED2146B99100E7231B /* Benchmark */ = {
 			isa = PBXGroup;
 			children = (
+				862989F22146B99100E7231B /* Main.storyboard */,
+				86BD7A36221DAAB500614C1D /* AboutViewController.swift */,
 				862989EE2146B99100E7231B /* AppDelegate.swift */,
 				862989F02146B99100E7231B /* ViewController.swift */,
-				862989F22146B99100E7231B /* Main.storyboard */,
 				8607023A21626E87002DFB99 /* QRScannerController.swift */,
 				862989F52146B99300E7231B /* Assets.xcassets */,
 				860C5024215BD3FA007249A6 /* Images */,
@@ -383,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86BD7A37221DAAB500614C1D /* AboutViewController.swift in Sources */,
 				8607023B21626E87002DFB99 /* QRScannerController.swift in Sources */,
 				862989F12146B99100E7231B /* ViewController.swift in Sources */,
 				862989EF2146B99100E7231B /* AppDelegate.swift in Sources */,
