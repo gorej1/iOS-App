@@ -43,6 +43,7 @@
 		862989F92146B99300E7231B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862989F72146B99300E7231B /* LaunchScreen.storyboard */; };
 		86298A042146B99300E7231B /* BenchmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A032146B99300E7231B /* BenchmarkTests.swift */; };
 		86298A0F2146B99300E7231B /* BenchmarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A0E2146B99300E7231B /* BenchmarkUITests.swift */; };
+		86BC7F662224428400416CB6 /* Compass.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 86BC7F652224428400416CB6 /* Compass.PNG */; };
 		86BD7A37221DAAB500614C1D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD7A36221DAAB500614C1D /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,7 @@
 		86298A0A2146B99300E7231B /* BenchmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86298A0E2146B99300E7231B /* BenchmarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkUITests.swift; sourceTree = "<group>"; };
 		86298A102146B99300E7231B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BC7F652224428400416CB6 /* Compass.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Compass.PNG; sourceTree = "<group>"; };
 		86BD7A36221DAAB500614C1D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				861C3A7C2189F25E00B6F04B /* 1024.png */,
 				860C5027215BD58B007249A6 /* Airshow Sky 2.jpg */,
 				860C5028215BD58B007249A6 /* Airshow Sky 3.jpeg */,
+				86BC7F652224428400416CB6 /* Compass.PNG */,
 				860C5026215BD58B007249A6 /* Formation Two, Large.jpeg */,
 				860C5025215BD41A007249A6 /* wright1903.jpg */,
 				860C4FF2215BD3E8007249A6 /* 16.png */,
@@ -351,6 +354,7 @@
 				860C5014215BD3E9007249A6 /* 20.png in Resources */,
 				860C502B215BD58C007249A6 /* Airshow Sky 3.jpeg in Resources */,
 				860C501F215BD3E9007249A6 /* 87.png in Resources */,
+				86BC7F662224428400416CB6 /* Compass.PNG in Resources */,
 				860C5012215BD3E9007249A6 /* 72.png in Resources */,
 				860C5019215BD3E9007249A6 /* 76.png in Resources */,
 				860C5011215BD3E9007249A6 /* 32.png in Resources */,

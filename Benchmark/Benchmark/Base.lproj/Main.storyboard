@@ -311,7 +311,17 @@
                     <view key="view" contentMode="scaleToFill" id="EyC-T3-mNY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Compass.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="Iqt-fz-4j4">
+                                <rect key="frame" x="40" y="-49.5" width="240" height="579"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Iqt-fz-4j4" secondAttribute="trailing" constant="40" id="20d-ps-P7e"/>
+                            <constraint firstItem="Iqt-fz-4j4" firstAttribute="leading" secondItem="EyC-T3-mNY" secondAttribute="leading" constant="40" id="9Lq-kK-wjW"/>
+                            <constraint firstItem="Iqt-fz-4j4" firstAttribute="centerY" secondItem="EyC-T3-mNY" secondAttribute="centerY" id="ZqT-fL-igg"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Scan" id="0P7-uR-7rT">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="PYP-Dd-PY7">
@@ -331,7 +341,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9bV-rH-juo" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s8n-rh-E0u">
-                        <rect key="frame" x="0.0" y="20" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -349,7 +359,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lRU-YU-Mjk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Eff-0D-5tm">
-                        <rect key="frame" x="0.0" y="20" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -365,5 +375,6 @@
     <resources>
         <image name="1024.png" width="1024" height="1024"/>
         <image name="Airshow Sky 3.jpeg" width="427" height="641"/>
+        <image name="Compass.PNG" width="600" height="579"/>
     </resources>
 </document>
