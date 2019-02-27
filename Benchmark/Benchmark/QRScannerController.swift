@@ -15,7 +15,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     //MARK: Variables
     var captureSession:AVCaptureSession!
     var videoPreviewLayer:AVCaptureVideoPreviewLayer!
-    
+        
     //MARK: Navigation
     @IBAction func Cancel(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
