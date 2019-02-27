@@ -43,6 +43,9 @@
 		862989F92146B99300E7231B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862989F72146B99300E7231B /* LaunchScreen.storyboard */; };
 		86298A042146B99300E7231B /* BenchmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A032146B99300E7231B /* BenchmarkTests.swift */; };
 		86298A0F2146B99300E7231B /* BenchmarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86298A0E2146B99300E7231B /* BenchmarkUITests.swift */; };
+		86BC7F662224428400416CB6 /* Compass.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 86BC7F652224428400416CB6 /* Compass.PNG */; };
+		86BC7F6822244D8800416CB6 /* CompassBlack.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 86BC7F6722244D8500416CB6 /* CompassBlack.PNG */; };
+		86BC7F6A2224537700416CB6 /* tempHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 86BC7F692224537700416CB6 /* tempHome.png */; };
 		86BD7A37221DAAB500614C1D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BD7A36221DAAB500614C1D /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +111,9 @@
 		86298A0A2146B99300E7231B /* BenchmarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenchmarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86298A0E2146B99300E7231B /* BenchmarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchmarkUITests.swift; sourceTree = "<group>"; };
 		86298A102146B99300E7231B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BC7F652224428400416CB6 /* Compass.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Compass.PNG; sourceTree = "<group>"; };
+		86BC7F6722244D8500416CB6 /* CompassBlack.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompassBlack.PNG; sourceTree = "<group>"; };
+		86BC7F692224537700416CB6 /* tempHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tempHome.png; sourceTree = "<group>"; };
 		86BD7A36221DAAB500614C1D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,10 +145,13 @@
 		860C5024215BD3FA007249A6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				86BC7F692224537700416CB6 /* tempHome.png */,
+				86BC7F6722244D8500416CB6 /* CompassBlack.PNG */,
 				861C3A7E2189F27E00B6F04B /* 1024_1.png */,
 				861C3A7C2189F25E00B6F04B /* 1024.png */,
 				860C5027215BD58B007249A6 /* Airshow Sky 2.jpg */,
 				860C5028215BD58B007249A6 /* Airshow Sky 3.jpeg */,
+				86BC7F652224428400416CB6 /* Compass.PNG */,
 				860C5026215BD58B007249A6 /* Formation Two, Large.jpeg */,
 				860C5025215BD41A007249A6 /* wright1903.jpg */,
 				860C4FF2215BD3E8007249A6 /* 16.png */,
@@ -343,6 +352,7 @@
 				860C501B215BD3E9007249A6 /* 40.png in Resources */,
 				860C501C215BD3E9007249A6 /* 80.png in Resources */,
 				860C5015215BD3E9007249A6 /* 57.png in Resources */,
+				86BC7F6A2224537700416CB6 /* tempHome.png in Resources */,
 				862989F62146B99300E7231B /* Assets.xcassets in Resources */,
 				860C5023215BD3E9007249A6 /* 128.png in Resources */,
 				860C5010215BD3E9007249A6 /* 60.png in Resources */,
@@ -351,8 +361,10 @@
 				860C5014215BD3E9007249A6 /* 20.png in Resources */,
 				860C502B215BD58C007249A6 /* Airshow Sky 3.jpeg in Resources */,
 				860C501F215BD3E9007249A6 /* 87.png in Resources */,
+				86BC7F662224428400416CB6 /* Compass.PNG in Resources */,
 				860C5012215BD3E9007249A6 /* 72.png in Resources */,
 				860C5019215BD3E9007249A6 /* 76.png in Resources */,
+				86BC7F6822244D8800416CB6 /* CompassBlack.PNG in Resources */,
 				860C5011215BD3E9007249A6 /* 32.png in Resources */,
 				860C502A215BD58C007249A6 /* Airshow Sky 2.jpg in Resources */,
 				860C501A215BD3E9007249A6 /* 152.png in Resources */,
