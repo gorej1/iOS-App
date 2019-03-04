@@ -3,3 +3,6 @@
 
 # Ignore local user settings
 **/xcuserdata
+
+# Ignore MacOS directory file
+.DS_Store
