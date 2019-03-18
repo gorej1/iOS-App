@@ -20,12 +20,4 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    /* This function is linked to the "Info" button on the landing page.
-    *  It opens a link using the default browser for the phone.
-    */
-    @IBAction func followLink(_ sender: Any) {
-        //UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: [:], completionHandler: nil)
-        // TODO: Open About page instead of home page
-    }
 }

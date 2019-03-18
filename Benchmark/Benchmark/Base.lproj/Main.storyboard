@@ -49,7 +49,6 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="followLink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I7A-2y-31N"/>
                                     <segue destination="98E-aH-JXf" kind="show" id="LVp-zY-5B8"/>
                                 </connections>
                             </button>
