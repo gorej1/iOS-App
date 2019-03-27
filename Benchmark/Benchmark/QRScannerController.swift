@@ -141,6 +141,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             if error != nil {
                 let errString = error as! String
                 print("error=\(errString)")
+
                 return
             }
             // Store the raw data returned from the PHP script
@@ -158,6 +159,17 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             if let url = URL(string: trimmedString),
                 UIApplication.shared.canOpenURL(url) {
                 UIApplication.shared.open(url, options: [:])
+            } else {
+                // TODO: popup notification to let user know there was an error
+                // Note: this won't work because the QRScannerController is dismissed before this
+                // message can be printed. This task runs asynchronously... Must figure out how to
+                // determine if link was followed outside of this task.
+                DispatchQueue.main.async {
+                    let invalidURLAlertController = UIAlertController(title: "My App", message: "Hey", preferredStyle: UIAlertControllerStyle.alert)
+                    invalidURLAlertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+                    self.present(invalidURLAlertController, animated: true, completion: nil)
+                }
+                
             }
         }
         task.resume()
