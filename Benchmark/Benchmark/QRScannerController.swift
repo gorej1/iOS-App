@@ -87,9 +87,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     
     // This function opens an alert to inform the user that their device does not support QR scanning
     func failed() {
-        let ac = UIAlertController(title:"Scanning not supported", message: "Your device does not support scanning a code from an item. Please use a device with a camera.", preferredStyle: .alert)
-        ac.addAction(UIAlertAction(title: "OK", style: .default))
-        present(ac, animated: true)
+        self.showError(message: "Your device does not support QR code scanning. Please use a device with a camera.")
         captureSession = nil
     }
     
@@ -140,8 +138,10 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             
             // Print the error code to the terminal, if one occurs
             if error != nil {
-                let errString = error as! String
+                //let errString = error as! String
+                let errString = error!.localizedDescription
                 print("error=\(errString)")
+                self.showError(message: errString)
                 return
             }
             // Store the raw data returned from the PHP script
@@ -160,9 +160,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
                 if let url = URL(string: trimmedString), UIApplication.shared.canOpenURL(url) {
                     UIApplication.shared.open(url, options: [:])
                 } else {
-                    let invalidURLAlertController = UIAlertController(title: "Error", message: "Could not connect to database. You might have scanned an invalid QR code.", preferredStyle: UIAlertControllerStyle.alert)
-                    invalidURLAlertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
-                    UIApplication.shared.keyWindow?.rootViewController?.present(invalidURLAlertController, animated: true, completion: nil)
+                    self.showError(message: "Invalid QR code.")
                 }
             }
         }
@@ -172,5 +170,13 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func showError(message: String) {
+        DispatchQueue.main.async{
+            let errorAlertController = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertControllerStyle.alert)
+            errorAlertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            UIApplication.shared.keyWindow?.rootViewController?.present(errorAlertController, animated: true, completion: nil)
+        }
     }
 }
