@@ -21,9 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tempHome.png" translatesAutoresizingMaskIntoConstraints="NO" id="SNZ-zd-Jof">
-                                <rect key="frame" x="0.0" y="64" width="320" height="536"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Patty evening.tif" translatesAutoresizingMaskIntoConstraints="NO" id="WJw-A1-hEu">
                                 <rect key="frame" x="-30" y="64" width="350" height="616"/>
                             </imageView>
@@ -66,21 +63,17 @@
                         <constraints>
                             <constraint firstItem="GrV-YZ-f3H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Ek-Es-88H"/>
                             <constraint firstItem="GzH-qb-sNJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2f7-Ry-bja"/>
-                            <constraint firstItem="SNZ-zd-Jof" firstAttribute="bottom" secondItem="NOe-X4-amC" secondAttribute="top" id="3kW-QL-yFH"/>
-                            <constraint firstItem="WJw-A1-hEu" firstAttribute="trailing" secondItem="SNZ-zd-Jof" secondAttribute="trailing" id="4JR-Nu-7Ov"/>
+                            <constraint firstItem="WJw-A1-hEu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="4JR-Nu-7Ov"/>
                             <constraint firstAttribute="trailing" secondItem="xxf-pR-42f" secondAttribute="trailing" constant="20" id="4Vj-rS-5Zg"/>
                             <constraint firstItem="GzH-qb-sNJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5uj-Xq-RGz"/>
-                            <constraint firstItem="SNZ-zd-Jof" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DoB-mN-k7f"/>
                             <constraint firstItem="GrV-YZ-f3H" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="Huu-fT-JeN"/>
                             <constraint firstItem="xxf-pR-42f" firstAttribute="bottom" secondItem="GzH-qb-sNJ" secondAttribute="top" constant="-10" id="PNG-Om-WRn"/>
                             <constraint firstAttribute="trailing" secondItem="GzH-qb-sNJ" secondAttribute="trailing" id="TCC-5B-NEP"/>
                             <constraint firstItem="GrV-YZ-f3H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Vfg-r2-wVs"/>
-                            <constraint firstAttribute="trailing" secondItem="SNZ-zd-Jof" secondAttribute="trailing" id="b3E-Vp-Ch1"/>
                             <constraint firstItem="WJw-A1-hEu" firstAttribute="bottom" secondItem="NOe-X4-amC" secondAttribute="top" constant="80" id="gbW-cJ-2cF"/>
-                            <constraint firstItem="WJw-A1-hEu" firstAttribute="leading" secondItem="SNZ-zd-Jof" secondAttribute="leading" constant="-30" id="iRk-fM-bic"/>
+                            <constraint firstItem="WJw-A1-hEu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-30" id="iRk-fM-bic"/>
                             <constraint firstItem="WJw-A1-hEu" firstAttribute="top" secondItem="xah-cg-0qR" secondAttribute="bottom" id="qey-Du-44g"/>
                             <constraint firstItem="GzH-qb-sNJ" firstAttribute="bottom" secondItem="NOe-X4-amC" secondAttribute="top" id="rMA-Ia-0Al"/>
-                            <constraint firstItem="SNZ-zd-Jof" firstAttribute="top" secondItem="xah-cg-0qR" secondAttribute="bottom" id="u6F-w6-Aoh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="BENCHMARK SYSTEMS" id="C7i-Nv-Y5M"/>
@@ -370,6 +363,5 @@
         <image name="Benchmark-logo.png" width="3344" height="2992"/>
         <image name="CompassBlack.PNG" width="600" height="579"/>
         <image name="Patty evening.tif" width="2052" height="3048"/>
-        <image name="tempHome.png" width="846" height="1276"/>
     </resources>
 </document>
