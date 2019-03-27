@@ -127,6 +127,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     // This function is run once a QR code is successfully detected
     func found(code: String) {
         // Setting up the URL to use the PHP script on the website
+        // TODO: Update this URL once we get websites migrated
         let url: NSURL = NSURL(string: "https://flyinghistory.com/geturl.php")!
         let request:NSMutableURLRequest = NSMutableURLRequest(url:url as URL)
         let bodyData = "code=\(code)"
@@ -141,7 +142,6 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             if error != nil {
                 let errString = error as! String
                 print("error=\(errString)")
-
                 return
             }
             // Store the raw data returned from the PHP script
@@ -156,20 +156,14 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             // Remove all instances of "/" from the URL string
             let trimmedString = urlString2.replacingOccurrences(of: "\\", with: "")
             // If the URL can be opened, open it using the default browser
-            if let url = URL(string: trimmedString),
-                UIApplication.shared.canOpenURL(url) {
-                UIApplication.shared.open(url, options: [:])
-            } else {
-                // TODO: popup notification to let user know there was an error
-                // Note: this won't work because the QRScannerController is dismissed before this
-                // message can be printed. This task runs asynchronously... Must figure out how to
-                // determine if link was followed outside of this task.
-                DispatchQueue.main.async {
-                    let invalidURLAlertController = UIAlertController(title: "My App", message: "Hey", preferredStyle: UIAlertControllerStyle.alert)
+            DispatchQueue.main.async {
+                if let url = URL(string: trimmedString), UIApplication.shared.canOpenURL(url) {
+                    UIApplication.shared.open(url, options: [:])
+                } else {
+                    let invalidURLAlertController = UIAlertController(title: "Error", message: "Could not connect to database. You might have scanned an invalid QR code.", preferredStyle: UIAlertControllerStyle.alert)
                     invalidURLAlertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
-                    self.present(invalidURLAlertController, animated: true, completion: nil)
+                    UIApplication.shared.keyWindow?.rootViewController?.present(invalidURLAlertController, animated: true, completion: nil)
                 }
-                
             }
         }
         task.resume()
