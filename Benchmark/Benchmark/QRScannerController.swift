@@ -179,4 +179,26 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
             UIApplication.shared.keyWindow?.rootViewController?.present(errorAlertController, animated: true, completion: nil)
         }
     }
+    
+
+    @IBAction func toggleFlashlight(_ sender: Any) {
+        guard let device = AVCaptureDevice.default(for: .video) else { return }
+        if device.hasTorch {
+            do{
+                try device.lockForConfiguration()
+                
+                if device.torchMode == .on {
+                    device.torchMode = .off
+                } else {
+                    device.torchMode = .on
+                }
+                
+                device.unlockForConfiguration()
+            } catch {
+                print("Error accessing flashlight")
+            }
+        } else {
+            print("No flashlight available")
+        }
+    }
 }
