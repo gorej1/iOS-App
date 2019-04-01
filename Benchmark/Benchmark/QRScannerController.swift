@@ -174,8 +174,8 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     
     func showError(message: String) {
         DispatchQueue.main.async{
-            let errorAlertController = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertControllerStyle.alert)
-            errorAlertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            let errorAlertController = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertController.Style.alert)
+            errorAlertController.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
             UIApplication.shared.keyWindow?.rootViewController?.present(errorAlertController, animated: true, completion: nil)
         }
     }

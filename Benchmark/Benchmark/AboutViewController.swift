@@ -13,11 +13,11 @@ class AboutViewController: UITableViewController {
 
     //MARK: Actions
     @IBAction func gotoHomepage(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
     }
     
     @IBAction func gotoUDWebsite(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://udayton.edu/engineering/connect/innovation_center/index.php")! as URL, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://udayton.edu/engineering/connect/innovation_center/index.php")! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
     }
     
     //MARK: auto-generated
@@ -38,4 +38,9 @@ class AboutViewController: UITableViewController {
     }
     */
 
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value)})
 }
