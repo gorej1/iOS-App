@@ -13,7 +13,7 @@ class AboutViewController: UITableViewController {
 
     //MARK: Actions
     @IBAction func gotoHomepage(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://flyinghistory.com")! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
+        UIApplication.shared.open(URL(string:"https://evolutionofflight.com")! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
     }
     
     @IBAction func gotoUDWebsite(_ sender: Any) {
