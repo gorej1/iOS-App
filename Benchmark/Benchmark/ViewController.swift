@@ -13,7 +13,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     
     //MARK: Picker View
     @IBOutlet weak var topicPicker: UIPickerView!
-    let topics = ["Select topic", "Evolution of Flight", "Mary Apparitions", "More coming soon"]
+    let topics = ["Select topic", "Evolution of Flight", "Mary Apparitions", "More topics coming soon!"]
     let topicURLs = ["", "http://evolutionofflight.com", "https://sites.google.com/a/udayton.edu/maryapparitions", ""]
     
     @IBAction func goTopic(_ sender: Any) {

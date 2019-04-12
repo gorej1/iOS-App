@@ -60,9 +60,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzG-HY-SsW">
-                                <rect key="frame" x="256" y="520" width="64" height="80"/>
+                                <rect key="frame" x="240" y="520" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="U9B-Jo-aSh"/>
+                                    <constraint firstAttribute="width" constant="80" id="bw1-L6-0Xr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="GO">
@@ -79,10 +80,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P19-PF-TSu">
-                                <rect key="frame" x="0.0" y="520" width="256" height="80"/>
+                                <rect key="frame" x="0.0" y="520" width="240" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="70M-C4-ngL"/>
-                                    <constraint firstAttribute="width" constant="256" id="X3U-Da-CTW"/>
                                 </constraints>
                             </pickerView>
                         </subviews>
@@ -99,16 +99,15 @@
                             <constraint firstAttribute="trailing" secondItem="GzH-qb-sNJ" secondAttribute="trailing" id="TCC-5B-NEP"/>
                             <constraint firstItem="rLc-HL-mHz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UCf-ax-yKS"/>
                             <constraint firstItem="GrV-YZ-f3H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Vfg-r2-wVs"/>
-                            <constraint firstItem="yzG-HY-SsW" firstAttribute="leading" secondItem="P19-PF-TSu" secondAttribute="trailing" id="WR6-SL-hOv"/>
                             <constraint firstItem="P19-PF-TSu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cxX-oq-eZ9"/>
                             <constraint firstItem="P19-PF-TSu" firstAttribute="top" secondItem="yzG-HY-SsW" secondAttribute="top" id="fVN-Vp-VBN"/>
                             <constraint firstItem="WJw-A1-hEu" firstAttribute="bottom" secondItem="NOe-X4-amC" secondAttribute="top" constant="80" id="gbW-cJ-2cF"/>
                             <constraint firstItem="WJw-A1-hEu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-30" id="iRk-fM-bic"/>
                             <constraint firstItem="P19-PF-TSu" firstAttribute="top" secondItem="rLc-HL-mHz" secondAttribute="bottom" constant="8" id="ibx-h7-ENB"/>
                             <constraint firstItem="NOe-X4-amC" firstAttribute="top" secondItem="P19-PF-TSu" secondAttribute="bottom" id="lee-Wc-ejA"/>
+                            <constraint firstItem="P19-PF-TSu" firstAttribute="trailing" secondItem="yzG-HY-SsW" secondAttribute="leading" id="oDj-6T-c82"/>
                             <constraint firstItem="WJw-A1-hEu" firstAttribute="top" secondItem="xah-cg-0qR" secondAttribute="bottom" constant="-50" id="qey-Du-44g"/>
                             <constraint firstItem="GzH-qb-sNJ" firstAttribute="bottom" secondItem="NOe-X4-amC" secondAttribute="top" constant="-120" id="rMA-Ia-0Al"/>
-                            <constraint firstItem="yzG-HY-SsW" firstAttribute="leading" secondItem="P19-PF-TSu" secondAttribute="trailing" id="xHl-Ba-VcA"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="BENCHMARK SYSTEMS" id="C7i-Nv-Y5M"/>
@@ -139,7 +138,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.9.2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJQ-L4-Fzm">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.9.3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJQ-L4-Fzm">
                                                     <rect key="frame" x="266" y="12" width="38" height="21"/>
                                                     <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -335,7 +334,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Compass-withoutline.png" translatesAutoresizingMaskIntoConstraints="NO" id="WFk-sp-1qn">
-                                <rect key="frame" x="-354" y="-236" width="1028" height="1028"/>
+                                <rect key="frame" x="-348" y="-230" width="1016" height="1016"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="WFk-sp-1qn" secondAttribute="height" multiplier="1:1" id="Ysm-Gn-7HU"/>
                                 </constraints>
@@ -371,7 +370,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9bV-rH-juo" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s8n-rh-E0u">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -389,7 +388,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lRU-YU-Mjk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Eff-0D-5tm">
-                        <rect key="frame" x="0.0" y="20" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
