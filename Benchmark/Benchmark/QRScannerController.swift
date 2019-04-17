@@ -125,8 +125,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     // This function is run once a QR code is successfully detected
     func found(code: String) {
         // Setting up the URL to use the PHP script on the website
-        // TODO: Update this URL once we get websites migrated
-        let url: NSURL = NSURL(string: "https://flyinghistory.com/geturl.php")!
+        let url: NSURL = NSURL(string: "https://evolutionofflight.com/geturl.php")!
         let request:NSMutableURLRequest = NSMutableURLRequest(url:url as URL)
         let bodyData = "code=\(code)"
 

@@ -11,11 +11,12 @@ import AVFoundation
 
 class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    //MARK: Picker View
+    // MARK: Picker View
     @IBOutlet weak var topicPicker: UIPickerView!
     let topics = ["Select topic", "Evolution of Flight", "Mary Apparitions", "More topics coming soon!"]
     let topicURLs = ["", "http://evolutionofflight.com", "https://sites.google.com/a/udayton.edu/maryapparitions", ""]
     
+    // This function runs when the "GO" button is tapped
     @IBAction func goTopic(_ sender: Any) {
         let row = topicPicker.selectedRow(inComponent: 0)
         if topicURLs[row] == "" {
@@ -35,15 +36,8 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return topics[row]
     }
-    
-//    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-//        if topicURLs[row] == "" {
-//            return // Intentional do nothing
-//        }
-//        UIApplication.shared.open(URL(string:topicURLs[row])! as URL, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
-//    }
 
-    //MARK: Auto-generated
+    // MARK: Auto-generated
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
